@@ -5,7 +5,7 @@
   {
     "rules": {
       "some-rules": "severity",
-      "other-rule": ["severity", { "option": true }]
+      "other-rule": ["severity", { "option": true }
     }
   }
 
@@ -19,3 +19,9 @@
       }
     ]
   }
+
+  { "rules": {
+    "close-order": "error",
+    "void": ["warn", {"style": "omit"}]
+  }
+}

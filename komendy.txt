@@ -1,1 +1,1 @@
-html-validate --ext html
+html-validate *.html
